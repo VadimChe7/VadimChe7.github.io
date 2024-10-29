@@ -1,0 +1,62 @@
+.reas {
+    padding: 20px 0 64px 0;
+
+    &-label {
+        margin: 0 auto;
+        width: 113px;
+        height: 24px;
+        background-color: $black;
+        color: $white;
+        font-size: 11px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 5px 0;
+    }
+
+    &-title {
+        font-weight: 400;
+        font-size: 38px;
+        color: $grey;
+        text-align: center;
+        margin-top: 32px;
+        text-transform: uppercase;
+    }
+
+    &-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+    }
+
+    &-round {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 116px;
+        height: 116px;
+        background-color: $primary;
+        border-radius: 100%;
+        margin-right: 25px;
+    }
+
+    &-descr {
+        width: 343px;
+        text-align: center;
+
+        .reas-subtitle {
+            font-weight: 400;
+            font-size: 17px;
+            color: $primary;
+            line-height: 21px;
+        }
+
+        .reas-text {
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 21px;
+        }
+    }
+
+}

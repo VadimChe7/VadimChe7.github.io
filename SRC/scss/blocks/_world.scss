@@ -1,0 +1,46 @@
+.world {
+    position: relative;
+    padding: 48px 0;
+    min-height: 720px;
+    background: url(../../img/map.jpg) center center/cover no-repeat; 
+
+    .label {
+        margin: 0 auto;
+        width: 79px;
+        height: 27px;
+        background-color: $white;
+        color: $black;
+        font-size: 11px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 5px 0;
+    }
+
+    &-title {
+        font-weight: 700;
+        font-size: 38px;
+        color: $white;
+        text-align: center;
+        margin-top: 32px;
+        text-transform: uppercase;
+    }
+
+    &-subtitle {
+        font-weight: 400;
+        font-size: 17px;
+        color: $white;
+        text-align: center;
+    }
+
+    &-link {
+        color: $primary;
+        font-weight: 400;
+        font-size: 17px;
+        text-transform: uppercase;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 50px;
+    }
+}

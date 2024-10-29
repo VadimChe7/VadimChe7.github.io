@@ -1,0 +1,95 @@
+.mobile {
+    min-height: 864px;
+    padding: 48px 0 80px 0;
+    background: url(../../img/mobile_bg.png) center center/cover no-repeat;
+
+    .label {
+        margin: 0 auto;
+        width: 113px;
+        height: 24px;
+        background-color: $black;
+        color: $white;
+        font-size: 11px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 5px 0;
+    }
+
+    .title {
+        font-weight: 400;
+        font-size: 38px;
+        color: $grey;
+        text-align: center;
+        margin-top: 32px;
+        text-transform: uppercase;
+    }
+
+    &-subtitle {
+        font-weight: 400;
+        font-size: 17px;
+        color: $grey;
+        text-align: center;
+    }
+
+    .row {
+        margin-top: 32px;
+    }
+
+    &-item {
+        position: relative;
+        width: 320px;
+        height: 280px;
+        margin: 0 auto;
+        margin-bottom: 19px;
+        padding-top: 82px;
+
+        &-1 {
+            background: url(../../img/Карточка\ 1.png) center center/cover no-repeat;
+        }
+
+        &-2 {
+            background: url(../../img/Карточка\ 2.png) center center/cover no-repeat;
+        }
+
+        &-3 {
+            background: url(../../img/Карточка\ 3.png) center center/cover no-repeat;
+        }
+
+        &-4 {
+            background: url(../../img/Карточка\ 4.png) center center/cover no-repeat;
+        }
+
+        &-5 {
+            background: url(../../img/Карточка\ 5.png) center center/cover no-repeat;
+        }
+
+        &-6 {
+            background: url(../../img/Карточка\ 6.png) center center/cover no-repeat;
+        }
+    }
+
+    &-text {
+        font-weight: 400;
+        font-size: 24px;
+        text-transform: uppercase;
+        text-align: center;
+        color: $white;
+    }
+
+    &-round {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 34px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: $black;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+
+}

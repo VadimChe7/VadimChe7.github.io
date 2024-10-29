@@ -1,0 +1,75 @@
+.header {
+    position: relative;
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background: $bg-nav;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+
+    &-link {
+        font-weight: 300;
+        font-size: 15px;
+        color: $white;
+    }
+
+    &-item {
+        border-right: 2px dotted $black;
+        padding-right: 40px;
+    }
+
+    &-item:nth-child(6) {
+        border-right: none;
+    }
+}
+
+.subheader {
+    position: absolute;
+    height: 84px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6) ;
+
+    &-logo {
+        display: block;
+        max-width: 100%;
+        margin-top: 16px;
+    }
+
+    &-official {
+        font-weight: 100;
+        font-size: 13px;
+        color: $white;
+        margin-top: 6px;
+    }
+
+    &-call {
+        font-weight: 300;
+        font-size: 13px;
+        color: $white;
+        margin-top: 19px;
+        text-align: right;
+    }
+
+    &-phone {
+        display: block;
+        font-weight: 400;
+        font-size: 22px;
+        color: $white;
+        margin-top: 8px;
+        line-height: 12px;
+        text-align: right;
+        // text-transform: uppercase;
+    }
+
+    .btn {
+        @include btn;
+        @include btn-hover;
+        margin-top: 19px;
+    }
+}
